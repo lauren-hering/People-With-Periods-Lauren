@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,10 +11,9 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PeopleWithPeriods" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5nM-Wd-fe1">
@@ -46,7 +43,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIM-y2-UEg">
                                                 <rect key="frame" x="30" y="407" width="354" height="345"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Founded in July of 2019, People With Periods is an innovative app designed to provide users with an inclusive and educational environment to learn about their bodies. People With Periods (PWP) works closely with medical and business professionals to provide our users with the most accurate and inclusive information to best serve our users. Noticed our language? At People With Periods, we are adamant about altering the menstrual conversation and making it more inclusive. Traditionally, basic healthcare is gendered, bias, and non-inclusive, and People With Periods is here to change that. After all, not all women menstruate and not all menstruators are women. </mutableString>
+                                                <string key="text">Founded in July of 2019, People With Periods is an innovative app designed to provide users with an inclusive and educational environment to learn about their bodies. People With Periods (PWP) works closely with medical and business professionals to provide our users with the most accurate and inclusive information to best serve our users. Noticed our language? At People With Periods, we are adamant about altering the menstrual conversation and making it more inclusive. Traditionally, basic healthcare is gendered, bias, and non-inclusive, and People With Periods is here to change that. After all, not all women menstruate and not all menstruators are women. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.82745098039999998" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -111,6 +108,7 @@
                     </view>
                     <size key="freeformSize" width="414" height="2000"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-57.971014492753625" y="116.51785714285714"/>
         </scene>
@@ -119,7 +117,7 @@
             <objects>
                 <viewController id="beP-a8-fCz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XTX-Rx-Fyi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menstruation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRt-BY-XiF">
@@ -196,8 +194,8 @@
         <scene sceneID="btI-w3-Fm8">
             <objects>
                 <viewController id="mQT-sg-VqO" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ECo-b4-PSP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="ECo-b4-PSP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hnz-9k-NpF">
@@ -359,8 +357,8 @@
         <scene sceneID="5EO-qs-tHe">
             <objects>
                 <viewController id="lf8-hr-yrV" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="TB4-4K-wKY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="TB4-4K-wKY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ToA-kt-gK4">
@@ -519,7 +517,7 @@ Do not use oil-based lubricants with latex condoms (use a water-based lubricant 
             <objects>
                 <viewController id="FO8-0p-G8p" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TK2-Eq-4xX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zFf-kZ-O28">
@@ -662,8 +660,8 @@ Is prescribed by a doctor and only contains the hormone progestin. One pill is t
         <scene sceneID="eJ8-Fr-47h">
             <objects>
                 <viewController id="nUx-tF-tJS" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uUz-v3-eQc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="uUz-v3-eQc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0VY-E6-oo6">
@@ -804,8 +802,8 @@ Is prescribed by a doctor and only contains the hormone progestin. One pill is t
         <scene sceneID="rTX-62-AeG">
             <objects>
                 <viewController id="Be4-Yt-BSS" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="aEc-Qe-9A1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="aEc-Qe-9A1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NSq-sq-gJB">
@@ -930,8 +928,8 @@ Is prescribed by a doctor and only contains the hormone progestin. One pill is t
         <scene sceneID="6xn-C5-Fmg">
             <objects>
                 <viewController id="mcC-5s-mUP" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WiA-mY-EW7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="WiA-mY-EW7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q7r-F9-8pY">
@@ -1055,7 +1053,7 @@ Some chose to have a hysterectomy (removal of the uterus and sometimes also the 
             <objects>
                 <viewController id="p5N-0e-3Hp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CrF-Dg-WTK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HKI-Gb-cax">
@@ -1120,8 +1118,8 @@ LNG-only: Plan B One-Step®, AfterPill™, My Way®, Next Choice One Dose™, an
         <scene sceneID="pDx-un-AGh">
             <objects>
                 <viewController id="Klc-9i-G1x" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ch7-ab-b6e">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="ch7-ab-b6e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="maM-BP-UOj">
@@ -1189,7 +1187,7 @@ LNG-only: Plan B One-Step®, AfterPill™, My Way®, Next Choice One Dose™, an
             <objects>
                 <viewController id="KFf-yj-KrS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uNc-7a-1i6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRY-r1-9x7">
@@ -1336,102 +1334,95 @@ LNG-only: Plan B One-Step®, AfterPill™, My Way®, Next Choice One Dose™, an
             <objects>
                 <viewController id="5Kb-T9-8SD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Zg-MB-kAU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recources:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUM-Ni-a16">
-                                <rect key="frame" x="85" y="291" width="121" height="30"/>
+                                <rect key="frame" x="49" y="157" width="121" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.82745098039999998" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Donations:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81y-sx-0og">
-                                <rect key="frame" x="85" y="577" width="117" height="30"/>
+                                <rect key="frame" x="49" y="518" width="117" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.82745098039999998" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-Planned Parenthood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7c-A6-Olk">
-                                <rect key="frame" x="107" y="329" width="163" height="21"/>
+                                <rect key="frame" x="85" y="208" width="163" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-Office on Women's Health" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dK8-bp-mP0">
-                                <rect key="frame" x="107" y="446" width="207" height="21"/>
+                                <rect key="frame" x="86" y="358" width="207" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-Chicago Period Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ado-er-wlA">
-                                <rect key="frame" x="107" y="621" width="183" height="21"/>
+                                <rect key="frame" x="86" y="573" width="183" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-Period.org" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZd-2e-rPY">
-                                <rect key="frame" x="107" y="674" width="87" height="21"/>
+                                <rect key="frame" x="86" y="613" width="87" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-The Homeless Period Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzt-ih-cj8">
-                                <rect key="frame" x="107" y="734" width="228" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-Femme International" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bf-kI-4lI">
-                                <rect key="frame" x="107" y="796" width="164" height="21"/>
+                                <rect key="frame" x="85" y="662" width="254" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="webiste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCV-qG-Gn4">
-                                <rect key="frame" x="140" y="471" width="60" height="21"/>
+                                <rect key="frame" x="134" y="411" width="60" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Help Phone #: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXn-BS-dng">
-                                <rect key="frame" x="140" y="502" width="113" height="21"/>
+                                <rect key="frame" x="110" y="440" width="113" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1-800-994-9662" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQj-0d-aEQ">
-                                <rect key="frame" x="168" y="531" width="135" height="21"/>
+                                <rect key="frame" x="140" y="477" width="135" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="website" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3K-xv-elK">
-                                <rect key="frame" x="140" y="359" width="60" height="21"/>
+                                <rect key="frame" x="134" y="237" width="60" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="help chat website link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uO-16-SvA">
-                                <rect key="frame" x="140" y="414" width="165" height="21"/>
+                                <rect key="frame" x="140" y="295" width="165" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="find help center link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNi-Zz-cld">
-                                <rect key="frame" x="140" y="385" width="151" height="21"/>
+                                <rect key="frame" x="140" y="266" width="151" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1450,6 +1441,13 @@ LNG-only: Plan B One-Step®, AfterPill™, My Way®, Next Choice One Dose™, an
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-Femme International" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bf-kI-4lI">
+                                <rect key="frame" x="85" y="700" width="164" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="sSr-5B-M5C"/>
@@ -1457,9 +1455,14 @@ LNG-only: Plan B One-Step®, AfterPill™, My Way®, Next Choice One Dose™, an
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ghb-6y-JaG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3375" y="117"/>
+            <point key="canvasLocation" x="3373.913043478261" y="116.51785714285714"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="zj1-h0-N4N"/>
+        <segue reference="se0-G8-vtz"/>
+        <segue reference="uaw-tO-bAd"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="HomePageLogo" width="884" height="726"/>
         <image name="MenstruationImage" width="1194" height="1246"/>
@@ -1478,10 +1481,4 @@ LNG-only: Plan B One-Step®, AfterPill™, My Way®, Next Choice One Dose™, an
         <image name="sponge" width="1311" height="1304"/>
         <image name="tampons" width="1255" height="1260"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="dqg-wL-dFZ"/>
-        <segue reference="BZR-Xt-2jR"/>
-        <segue reference="p0P-KB-cf8"/>
-        <segue reference="Pll-I8-cti"/>
-    </inferredMetricsTieBreakers>
 </document>
